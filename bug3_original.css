@@ -574,6 +574,10 @@ body {
     width: 400px;
 }
 
+#section1 {
+    height: 100px;
+}
+
 .section {
     background-color: yellow;
     margin: 10px;
