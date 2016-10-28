@@ -5,13 +5,13 @@ function win() {
   }
 }
 var youWin = false;
-$ (function()
-  $('form').submit(function(e)) {
+$ (function() {
+  $('form').submit(function(e) {
     e.preventDefault();
     youWin = true;
     win();
   });
 });
-// remove paren at 16
+// remove parent at 16
 // missing curly brace at 6
 //
